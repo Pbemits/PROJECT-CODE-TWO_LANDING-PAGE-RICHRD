@@ -1,0 +1,15 @@
+.text-block {
+    width: 100%;
+    height: 20%;
+    background-color: aqua;
+    animation: modalfaceIn ease 0.5s;
+}
+@keyframes modalfaceIn{
+    from {
+        opacity: 0;
+        transform: translateY(-140px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
